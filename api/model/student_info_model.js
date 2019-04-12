@@ -20,7 +20,7 @@ var infoSchema = new Schema({
     required: true,
     default: 9597123456
   },
-  // address: { type: Schema.Types.ObjectId, ref: 'studentAddress' }
+   //address: { type: Schema.Types.ObjectId, ref: studentAddress }
  
 }, { collection: 'studentInfo' });
 
